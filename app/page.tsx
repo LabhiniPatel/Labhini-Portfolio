@@ -75,8 +75,8 @@ export default function Portfolio() {
                 </a>
               ))}
               <a
-                href="/Labhini_Patel_Resume.pdf"
-                download="Labhini_Patel_Resume.pdf"
+                href="/Labhini%Patel%Resume.pdf"
+                download="Labhini Patel Resume.pdf"
                 className="text-gray-300 hover:text-pink-400 transition-colors duration-200 font-medium"
               >
                 Resume
