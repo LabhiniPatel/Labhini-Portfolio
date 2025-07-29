@@ -75,12 +75,13 @@ export default function Portfolio() {
                 </a>
               ))}
               <a
-                href="/Labhini%Patel%Resume.pdf"
-                download="Labhini Patel Resume.pdf"
+                href="/Labhini_Patel_Resume.pdf"
+                download="Labhini_Patel_Resume.pdf"
                 className="text-gray-300 hover:text-pink-400 transition-colors duration-200 font-medium"
               >
                 Resume
-              </a>
+              </a> 
+
             </div>
             {/* Mobile menu button */}
             <div className="md:hidden">
