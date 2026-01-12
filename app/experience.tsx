@@ -1,6 +1,7 @@
 "use client"
 
-import { Brain, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
+import { Brain } from "lucide-react";
 
 export default function Experience() {
   const experiences = [
