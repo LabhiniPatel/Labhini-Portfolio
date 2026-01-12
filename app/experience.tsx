@@ -1,7 +1,7 @@
 "use client"
 
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
-import { Brain } from "lucide-react";
+import { Brain, Database, BarChart3, Calendar, MapPin } from "lucide-react"
+
 
 export default function Experience() {
   const experiences = [
@@ -18,7 +18,7 @@ export default function Experience() {
     "Performed segmentation analysis leading to simulated ROI improvement of ~15%",
     "Created repeatable analytics pipelines for customer acquisition insights"
   ],
-  icon: <BarChart className="w-6 h-6" />,
+  icon: <BarChart3 className="w-6 h-6" />,
   gradient: "from-sky-500 to-indigo-600"
     },
     {
