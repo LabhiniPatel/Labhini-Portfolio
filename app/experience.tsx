@@ -5,36 +5,52 @@ import { Calendar, MapPin, Briefcase, Brain } from "lucide-react"
 export default function Experience() {
   const experiences = [
     {
-      title: "AI Engineer Intern",
-      company: "RadicalX",
-      period: "Sept 2024 – April 2025",
-      location: "Remote",
-      description:
-        "Designed and deployed AI-powered solutions for document processing and workflow automation. Created structured pipelines to process, tag, and retrieve documents with improved accuracy.",
-      achievements: [
-        "Built AI-powered quiz generator reducing manual tasks by 60%",
-        "Implemented document processing pipelines with 95% accuracy",
-        "Improved workflow transparency across research teams",
-        "Documented processes and tracked task completion metrics",
-      ],
-      icon: <Brain className="w-6 h-6" />,
-      gradient: "from-purple-500 to-violet-600",
+      title: "Market Insights Analyst",
+  company: "Viz Digital Marketing, LLC",
+  period: "Oct 2025 – Present",
+  location: "Remote",
+  description:
+    "Delivered data-driven marketing insights through dashboarding, campaign analysis, and cross-channel performance reporting. Collaborated with marketing leads to improve campaign ROI and automate analytics workflows.",
+  achievements: [
+    "Built SQL-powered Tableau dashboards reducing ad-hoc analysis time by ~30%",
+    "Improved campaign ROI insights through KPI integration with business metrics",
+    "Performed segmentation analysis leading to simulated ROI improvement of ~15%",
+    "Created repeatable analytics pipelines for customer acquisition insights"
+  ],
+  icon: <BarChart className="w-6 h-6" />,
+  gradient: "from-sky-500 to-indigo-600"
     },
     {
+  title: "AI Engineer Intern",
+  company: "RadicalX",
+  period: "Sept 2024 – April 2025",
+  location: "Remote",
+  description:
+    "Led analytics development for AI operations by building pipelines, dashboards, and insights delivery tools to improve performance and streamline data processing.",
+  achievements: [
+    "Built analytics pipelines and Power BI dashboards to monitor KPIs, driving ~20% efficiency gains",
+    "Automated SQL and Python validation checks to improve data reliability to ~98%",
+    "Delivered executive-ready insights reducing manual reporting time and decision delays",
+    "Supported cross-functional collaboration on multi-source dataset workflows"
+  ],
+  icon: <Brain className="w-6 h-6" />,
+  gradient: "from-purple-500 to-violet-600",
+},
+    {
       title: "Business Analyst",
-      company: "Shree Jay Ambey Textile, India",
-      period: "Oct 2021 – Jan 2023",
-      location: "Maharashtra, India",
-      description:
-        "Managed vendor records, invoicing, and contract tracking using Excel and Google Sheets. Streamlined operational reporting and automated routine dashboards.",
-      achievements: [
-        "Reduced manual workload by 40% through automation",
-        "Managed vendor records and financial operations",
-        "Streamlined operational reporting processes",
-        "Maintained compliance documentation and vendor coordination",
-      ],
-      icon: <Briefcase className="w-6 h-6" />,
-      gradient: "from-blue-500 to-cyan-600",
+  company: "Shree Jay Ambey Textile",
+  period: "Oct 2021 – Jan 2023",
+  location: "India",
+  description:
+    "Delivered operational analytics by analyzing pricing, sales, and demand data to support planning, reduce delays, and improve decision-making efficiency.",
+  achievements: [
+    "Analyzed sales trends and fulfillment bottlenecks to reduce delays by ~10–15%",
+    "Built weekly reporting workflows for sales and inventory decisions",
+    "Translated transactional data into actionable business insights",
+    "Enhanced visibility into planning KPIs for leadership decision-making"
+  ],
+  icon: <Database className="w-6 h-6" />,
+  gradient: "from-yellow-500 to-orange-600",
     },
   ]
 
